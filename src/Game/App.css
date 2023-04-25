@@ -38,7 +38,7 @@
 .game .game-board .board-row button{
   width: 90px;
   height: 90px;
-  border: 1px solid black;
+  border: 1px solid red;
 }
 
 button:hover {
