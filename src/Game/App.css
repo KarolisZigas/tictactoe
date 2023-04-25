@@ -1,0 +1,103 @@
+.pre-game {
+  padding: 30px 0;
+  max-width: 750px;
+  margin: 5% auto;
+}
+
+.pre-game h1{
+  text-align: center;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 800;
+  font-size: 64px;
+  font-style: italic;
+}
+
+.game {
+  max-width: 885px;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px auto;
+  margin-top: 100px;
+  min-height: 260px;
+  font-family: 'Noto Sans', sans-serif;
+}
+.game-info {
+  margin-left: 20px;
+  min-width: 190px;
+}
+
+.game-info button {
+  font-family: 'Noto Sans', sans-serif;
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 4px 10px;
+  margin: 2px;
+  color: #1a8568;
+}
+
+.game .game-board .board-row button{
+  width: 90px;
+  height: 90px;
+  border: 1px solid black;
+}
+
+button:hover {
+  background-color: #CDF0EA;
+}
+
+.game .game-board {
+  text-align: center;
+}
+
+.game .game-board > button{
+  padding: 10px;
+  font-family: 'Noto Sans', sans-serif;
+  border-radius: 20px;
+  border: 1px solid black;
+  padding: 6px 12px;
+  margin: 20px 0;
+  color: #1a8568;
+}
+
+.square {
+  background: #F9F9F9;
+  border: 1px solid #999;
+  -webkit-text-stroke: 1px black;
+  color: rgb(121, 209, 194);
+  float: left;
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 34px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 34px;
+}
+
+.square:focus {
+  outline: none;
+}
+
+@media only screen and (max-width: 550px){
+  .pre-game {
+    margin: 0;
+  }
+  .pre-game h1{
+    margin: 0 10px 40px;
+  }
+  .game {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  .game-board {
+    width: 50%;
+    margin: 0 auto;
+  }
+  .game-info {
+    width: 50%;
+    margin: 0 auto;
+  }
+}
